@@ -1,5 +1,5 @@
 val javaVersion = 17
-val silkVersion = "1.9.7"
+val silkVersion = "1.9.8"
 
 plugins {
     kotlin("jvm") version "1.8.10"
@@ -21,6 +21,8 @@ dependencies {
     modImplementation("net.fabricmc:fabric-language-kotlin:1.9.2+kotlin.1.8.10")
 
     modImplementation("net.silkmc:silk-core:$silkVersion")
+    modImplementation("de.hglabor:notify:1.0.3")
+
 }
 
 tasks {
