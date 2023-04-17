@@ -21,6 +21,12 @@ dependencies {
     modImplementation("net.fabricmc:fabric-language-kotlin:1.9.2+kotlin.1.8.10")
 
     modImplementation("net.silkmc:silk-core:$silkVersion")
+    modImplementation("net.silkmc:silk-commands:$silkVersion")
+    modImplementation("net.silkmc:silk-game:$silkVersion")
+    modImplementation("net.silkmc:silk-igui:$silkVersion")
+    modImplementation("net.silkmc:silk-nbt:$silkVersion")
+    modImplementation("net.silkmc:silk-network:$silkVersion")
+    modImplementation("net.silkmc:silk-persistence:$silkVersion")
     modImplementation("de.hglabor:notify:1.0.3")
 
 }
